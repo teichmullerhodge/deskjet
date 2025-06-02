@@ -1,8 +1,7 @@
 deskjet
 =====
 
-An OTP application
-
+An application to easily make http requests via the erl-shell. Focused on API/Endpoints testing.
 Build
 -----
 
