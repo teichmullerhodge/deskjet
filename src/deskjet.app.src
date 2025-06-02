@@ -1,0 +1,14 @@
+{application, deskjet,
+ [{description, "An HTTP test application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    inets
+   ]},
+  {env,[]},
+  {modules, [deskjet_http]},
+  {licenses, ["Apache-2.0"]},
+  {links, []}
+ ]}.

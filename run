@@ -1,0 +1,5 @@
+compiler="rebar3"
+command="compile"
+run="shell"
+
+$compiler $command && $compiler $run
